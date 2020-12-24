@@ -20,7 +20,8 @@ button:hover {
 header {
     margin: auto;
     margin-top: 10%;
-    margin-bottom: 2.5%
+    margin-bottom: 2.5%;
+    width: 100%;
     
 }
 
