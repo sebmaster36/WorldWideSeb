@@ -1,0 +1,112 @@
+html {
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0%;
+}
+
+button {
+    border: 3px outset silver;
+    border-radius: 0;
+}
+
+button:hover {
+    border: 3px inset silver;
+    border-radius: 0;
+}
+
+/* Header */
+header {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 2.5%
+    
+}
+
+header h1 {
+    text-align: center; 
+    font-size: 500%
+    
+}
+
+header a {
+    text-decoration: none;  
+}
+
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 3px 3px 4px gray;
+}
+
+#bl {
+   color: #4285f4;
+}
+#re {
+    color: #ea4335;
+}
+#ye {
+    color: #fbbc05;
+}
+#gr {
+    color: #34a853
+}
+
+/* Section (Main Body) */ 
+
+section {
+    background-color: #ececec;
+    padding: .5%;
+}
+
+section form {
+    text-align: center;
+    padding: .5%;
+}
+
+input[type=text] {
+    color: #a9a9a9;
+    width:30%;
+    border: 3px inset silver; 
+    border-radius: 0px;  
+    margin: .2%
+}
+
+input[type=text]:focus-within {
+    border-radius: 0px; 
+}
+
+.lone {
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+
+.lone a {
+    font-size: 150%;
+}
+
+/* Navigation Bar*/
+nav {
+    text-align: center;
+    color: black;
+    margin-bottom: .5%;
+}
+
+a.bu:any-link {
+    text-decoration: none;
+    color: black;
+}
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+footer a:link, a:visited {
+    color: blue;
+}
+
+
+
+
