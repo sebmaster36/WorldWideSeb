@@ -91,3 +91,9 @@ article a:link, a:visited {
     color: blue;
 }
 
+iframe {
+    margin-left: 2%;
+    width: 55%;
+    height: 400px;
+    border: 2px outset silver;
+}
